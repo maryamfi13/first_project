@@ -1,0 +1,44 @@
+header, footer, .row {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.sidebar {
+	width: 30%;
+	background-color: lightblue;
+	float: left;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.nav {
+	background-color: white;
+	list-style-type: none;
+}
+
+.nav>li a {
+	display: block;
+	color: orange;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	border-bottom: 1px solid red; 
+}
+.content {
+	width: 68%;
+	float: right;
+}
+
+
+@media screen and (max-width: 992px) {
+	.sidebar {
+		float: none;
+	}
+	.content {
+		float: none;
+	}
+}

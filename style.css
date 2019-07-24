@@ -35,22 +35,3 @@ p.p1 {
 	position: relative;
 }
 
-.box {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: yellow;
-	height: 120px;
-	width: 120px;
-	z-index: 10;
-}
-
-.box2 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: orange;
-	height: 90px;
-	width: 90px;
-	z-index: 1;
-}
