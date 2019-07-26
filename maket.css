@@ -28,6 +28,11 @@ header, footer, .row {
 	font-size: 20px;
 	border-bottom: 1px solid red; 
 }
+
+.nav li a:hover {
+	color: red;
+	background-color: grey;
+}
 .content {
 	width: 68%;
 	float: right;
