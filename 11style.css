@@ -13,12 +13,13 @@ ul {
 	padding: 15px 25px;
 } 
 
-.list li:hover .menu {
-	display: block;
-}
 .menu  {
 	display: none;
 	position: absolute;
 	top:20;
 	left:0;
+}
+
+.list li:hover .menu {
+	display: block;
 }

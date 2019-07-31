@@ -1,0 +1,17 @@
+table {
+	width:1200px;
+	 border-spacing: 2px;
+	 background-image: url(123.jpg);
+}
+th {
+	color: white;
+	background-color: turquoise;
+}
+tr:nth-child(2n+1) {
+    background:lightgrey;
+}
+
+tr:hover {
+	background: blue;
+	color: white;
+}
